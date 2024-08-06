@@ -1,0 +1,122 @@
+.restaurant-banner {
+  margin-bottom: 24px;
+  display: flex;
+  background-image: url('https://res.cloudinary.com/pavankalyanbandaru/image/upload/v1651083504/tasty-kitchens/restaurant-banner-background.png');
+}
+
+.restaurant-image {
+  width: 160px;
+  height: 160px;
+  align-items: flex-start;
+  border-bottom-right-radius: 100px;
+}
+
+.restaurant-details-container {
+  padding: 24px 16px;
+  align-self: center;
+}
+
+.restaurant-name {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.restaurant-cuisine {
+  color: #eeeeee;
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.restaurant-location {
+  color: #eeeeee;
+  font-size: 14px;
+  margin-top: 0;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.restaurant-banner-sub-container {
+  display: flex;
+}
+
+.restaurant-rating-icon-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.restaurant-star-icon {
+  color: #ffffff;
+  font-size: 14px;
+  margin-right: 2px;
+}
+
+.restaurant-rating {
+  margin: 0;
+  color: #eeeeee;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.restaurant-reviews {
+  margin: 0;
+  color: #e2e8f0;
+  font-size: 14px;
+}
+
+.vertical-hr {
+  margin: 0 16px;
+  border: 1px solid #e2e8f0;
+}
+
+.food-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 24px;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-banner {
+    padding: 36px 48px;
+    margin-bottom: 36px;
+    align-items: center;
+  }
+
+  .restaurant-image {
+    width: 280px;
+    height: auto;
+    aspect-ratio: 5/3.35;
+    border-radius: 16px;
+  }
+
+  .restaurant-details-container {
+    margin-left: 24px;
+    padding: 0;
+  }
+
+  .restaurant-name {
+    font-size: 24px;
+  }
+
+  .food-items-container {
+    padding: 0 48px;
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .restaurant-banner {
+    padding: 36px 100px;
+    margin-bottom: 48px;
+  }
+
+  .food-items-container {
+    padding: 0 100px;
+    margin-bottom: 48px;
+  }
+}

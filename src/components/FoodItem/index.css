@@ -1,0 +1,77 @@
+.food-item-li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.li-food-image {
+  width: 160px;
+  aspect-ratio: 14/9;
+  border-radius: 8px;
+}
+
+.li-food-content-container {
+  margin-left: 16px;
+}
+
+.li-food-name {
+  color: #334155;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.li-price-rating-container {
+  color: #334155;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.li-rupee-icon {
+  font-size: 16px;
+}
+
+.li-food-star-icon {
+  color: #ffcc00;
+  font-size: 16px;
+  margin-right: 2px;
+}
+
+.li-food-price {
+  margin: 0;
+  font-size: 16px;
+}
+
+.li-food-rating {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.li-add-button {
+  font-size: 12px;
+  color: #ffa412;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid #ffa412;
+  background-color: transparent;
+}
+
+.li-add-button:hover {
+  background-color: #fdefde;
+}
+
+@media screen and (min-width: 768px) {
+  .food-item-li {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .food-item-li {
+    width: 30%;
+  }
+}

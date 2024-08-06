@@ -1,0 +1,178 @@
+.login-route {
+  min-height: 100vh;
+}
+
+.login-route-image {
+  display: none;
+}
+
+.login-heading-mobile-container {
+  height: 349px;
+  display: flex;
+  padding: 8px 24px;
+  margin-bottom: 16px;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-image: url('https://res.cloudinary.com/pavankalyanbandaru/image/upload/v1651081946/tasty-kitchens/login-mobile-image.png');
+}
+
+.login-heading-mobile {
+  margin: 0;
+  color: #0f172a;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.form-container {
+  display: flex;
+  font-family: 'Roboto';
+  flex-direction: column;
+  padding: 8px 24px 28px 24px;
+  background-color: #fefeff;
+}
+
+.login-website-logo {
+  display: none;
+}
+
+.login-website-title {
+  display: none;
+}
+
+.login-heading {
+  display: none;
+}
+
+.form-label {
+  color: #475569;
+  font-size: 14px;
+  margin-bottom: 12px;
+  margin-top: 16px;
+}
+
+.form-input {
+  color: #171f46;
+  font-size: 15px;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  border: 1px solid #c2c2c2;
+  background-color: #e2e8f0;
+}
+
+.login-error-message {
+  color: #ef4444;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.login-buttons-container {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-button,
+.trail-login-button {
+  width: 40%;
+  flex-grow: 1;
+  color: #ffffff;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 8px;
+  border-radius: 6px;
+  text-align: center;
+  border: 1px solid #f7931e;
+  background-color: #f7931e;
+}
+
+.login-button:hover {
+  background-color: #ffa641;
+}
+
+.trail-login-button {
+  color: #f7931e;
+  background-color: transparent;
+}
+
+.trail-login-button:hover {
+  background-color: #fdefde;
+}
+
+@media screen and (min-width: 768px) {
+  .login-route {
+    display: flex;
+  }
+
+  .login-route-image {
+    display: block;
+    width: 50%;
+  }
+
+  .login-heading-mobile-container {
+    display: none;
+  }
+
+  .login-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-container {
+    width: 90%;
+    max-width: 420px;
+    padding: 48px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px 0px #dedede;
+  }
+
+  .login-website-logo {
+    display: inline;
+    align-self: center;
+  }
+
+  .login-website-title {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    color: #f7931e;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0;
+    font-family: 'DM Sans';
+  }
+
+  .login-heading {
+    display: block;
+    color: #0f172a;
+    margin: 16px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .login-route {
+    height: 100vh;
+  }
+
+  .login-route-image {
+    width: 40%;
+  }
+
+  .login-container {
+    width: 60%;
+  }
+}

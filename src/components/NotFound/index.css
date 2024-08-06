@@ -1,0 +1,38 @@
+.not-found-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-container img {
+  width: 20%;
+}
+.not-found-container h1 {
+  font-family: DM Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #1e293b;
+  margin: 5px;
+}
+.not-found-container p {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: #475569;
+  margin: 5px;
+}
+
+.not-found-container button {
+  padding: 12px 24px 12px 24px;
+  border-radius: 12px;
+  background-color: #f7931e;
+  color: #ffffff;
+  margin-top: 10px;
+  border: none;
+}
